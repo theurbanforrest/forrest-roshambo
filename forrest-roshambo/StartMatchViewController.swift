@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  StartMatchViewController.swift
 //  forrest-roshambo
 //
 //  Created by Forrest Ching on 7/30/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class StartMatchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

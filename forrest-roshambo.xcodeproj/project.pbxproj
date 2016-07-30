@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A7A28C31D4CED5C007F9E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */; };
-		3A7A28C51D4CED5C007F9E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28C41D4CED5C007F9E59 /* ViewController.swift */; };
+		3A7A28C51D4CED5C007F9E59 /* StartMatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28C41D4CED5C007F9E59 /* StartMatchViewController.swift */; };
 		3A7A28C81D4CED5C007F9E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28C61D4CED5C007F9E59 /* Main.storyboard */; };
 		3A7A28CA1D4CED5C007F9E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */; };
 		3A7A28CD1D4CED5C007F9E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		3A7A28BF1D4CED5C007F9E59 /* forrest-roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forrest-roshambo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A7A28C41D4CED5C007F9E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A7A28C41D4CED5C007F9E59 /* StartMatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMatchViewController.swift; sourceTree = "<group>"; };
 		3A7A28C71D4CED5C007F9E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7A28CC1D4CED5C007F9E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */,
-				3A7A28C41D4CED5C007F9E59 /* ViewController.swift */,
+				3A7A28C41D4CED5C007F9E59 /* StartMatchViewController.swift */,
 				3A7A28C61D4CED5C007F9E59 /* Main.storyboard */,
 				3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */,
 				3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7A28C51D4CED5C007F9E59 /* ViewController.swift in Sources */,
+				3A7A28C51D4CED5C007F9E59 /* StartMatchViewController.swift in Sources */,
 				3A7A28C31D4CED5C007F9E59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 				3A7A28E91D4CED5D007F9E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A7A28EA1D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshamboTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				3A7A28EC1D4CED5D007F9E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A7A28ED1D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshamboUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				3A7A28EF1D4CED5D007F9E59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
