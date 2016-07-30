@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A7A28C31D4CED5C007F9E59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */; };
+		3A7A28C51D4CED5C007F9E59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28C41D4CED5C007F9E59 /* ViewController.swift */; };
+		3A7A28C81D4CED5C007F9E59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28C61D4CED5C007F9E59 /* Main.storyboard */; };
+		3A7A28CA1D4CED5C007F9E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */; };
+		3A7A28CD1D4CED5C007F9E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */; };
+		3A7A28D81D4CED5C007F9E59 /* forrest_roshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28D71D4CED5C007F9E59 /* forrest_roshamboTests.swift */; };
+		3A7A28E31D4CED5D007F9E59 /* forrest_roshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28E21D4CED5D007F9E59 /* forrest_roshamboUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7A28D41D4CED5C007F9E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A7A28B71D4CED5C007F9E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7A28BE1D4CED5C007F9E59;
+			remoteInfo = "forrest-roshambo";
+		};
+		3A7A28DF1D4CED5D007F9E59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A7A28B71D4CED5C007F9E59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7A28BE1D4CED5C007F9E59;
+			remoteInfo = "forrest-roshambo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A7A28BF1D4CED5C007F9E59 /* forrest-roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "forrest-roshambo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A7A28C41D4CED5C007F9E59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A7A28C71D4CED5C007F9E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A7A28CC1D4CED5C007F9E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A7A28CE1D4CED5C007F9E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7A28D31D4CED5C007F9E59 /* forrest-roshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "forrest-roshamboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7A28D71D4CED5C007F9E59 /* forrest_roshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forrest_roshamboTests.swift; sourceTree = "<group>"; };
+		3A7A28D91D4CED5C007F9E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7A28DE1D4CED5D007F9E59 /* forrest-roshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "forrest-roshamboUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7A28E21D4CED5D007F9E59 /* forrest_roshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forrest_roshamboUITests.swift; sourceTree = "<group>"; };
+		3A7A28E41D4CED5D007F9E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A7A28BC1D4CED5C007F9E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7A28D01D4CED5C007F9E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7A28DB1D4CED5D007F9E59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7A28B61D4CED5C007F9E59 = {
+			isa = PBXGroup;
+			children = (
+				3A7A28C11D4CED5C007F9E59 /* forrest-roshambo */,
+				3A7A28D61D4CED5C007F9E59 /* forrest-roshamboTests */,
+				3A7A28E11D4CED5D007F9E59 /* forrest-roshamboUITests */,
+				3A7A28C01D4CED5C007F9E59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A7A28C01D4CED5C007F9E59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A28BF1D4CED5C007F9E59 /* forrest-roshambo.app */,
+				3A7A28D31D4CED5C007F9E59 /* forrest-roshamboTests.xctest */,
+				3A7A28DE1D4CED5D007F9E59 /* forrest-roshamboUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A7A28C11D4CED5C007F9E59 /* forrest-roshambo */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */,
+				3A7A28C41D4CED5C007F9E59 /* ViewController.swift */,
+				3A7A28C61D4CED5C007F9E59 /* Main.storyboard */,
+				3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */,
+				3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */,
+				3A7A28CE1D4CED5C007F9E59 /* Info.plist */,
+			);
+			path = "forrest-roshambo";
+			sourceTree = "<group>";
+		};
+		3A7A28D61D4CED5C007F9E59 /* forrest-roshamboTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A28D71D4CED5C007F9E59 /* forrest_roshamboTests.swift */,
+				3A7A28D91D4CED5C007F9E59 /* Info.plist */,
+			);
+			path = "forrest-roshamboTests";
+			sourceTree = "<group>";
+		};
+		3A7A28E11D4CED5D007F9E59 /* forrest-roshamboUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7A28E21D4CED5D007F9E59 /* forrest_roshamboUITests.swift */,
+				3A7A28E41D4CED5D007F9E59 /* Info.plist */,
+			);
+			path = "forrest-roshamboUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A7A28BE1D4CED5C007F9E59 /* forrest-roshambo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7A28E71D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshambo" */;
+			buildPhases = (
+				3A7A28BB1D4CED5C007F9E59 /* Sources */,
+				3A7A28BC1D4CED5C007F9E59 /* Frameworks */,
+				3A7A28BD1D4CED5C007F9E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "forrest-roshambo";
+			productName = "forrest-roshambo";
+			productReference = 3A7A28BF1D4CED5C007F9E59 /* forrest-roshambo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A7A28D21D4CED5C007F9E59 /* forrest-roshamboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7A28EA1D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshamboTests" */;
+			buildPhases = (
+				3A7A28CF1D4CED5C007F9E59 /* Sources */,
+				3A7A28D01D4CED5C007F9E59 /* Frameworks */,
+				3A7A28D11D4CED5C007F9E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A7A28D51D4CED5C007F9E59 /* PBXTargetDependency */,
+			);
+			name = "forrest-roshamboTests";
+			productName = "forrest-roshamboTests";
+			productReference = 3A7A28D31D4CED5C007F9E59 /* forrest-roshamboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A7A28DD1D4CED5D007F9E59 /* forrest-roshamboUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7A28ED1D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshamboUITests" */;
+			buildPhases = (
+				3A7A28DA1D4CED5D007F9E59 /* Sources */,
+				3A7A28DB1D4CED5D007F9E59 /* Frameworks */,
+				3A7A28DC1D4CED5D007F9E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A7A28E01D4CED5D007F9E59 /* PBXTargetDependency */,
+			);
+			name = "forrest-roshamboUITests";
+			productName = "forrest-roshamboUITests";
+			productReference = 3A7A28DE1D4CED5D007F9E59 /* forrest-roshamboUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A7A28B71D4CED5C007F9E59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Urban Forrest";
+				TargetAttributes = {
+					3A7A28BE1D4CED5C007F9E59 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3A7A28D21D4CED5C007F9E59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3A7A28BE1D4CED5C007F9E59;
+					};
+					3A7A28DD1D4CED5D007F9E59 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3A7A28BE1D4CED5C007F9E59;
+					};
+				};
+			};
+			buildConfigurationList = 3A7A28BA1D4CED5C007F9E59 /* Build configuration list for PBXProject "forrest-roshambo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A7A28B61D4CED5C007F9E59;
+			productRefGroup = 3A7A28C01D4CED5C007F9E59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7A28BE1D4CED5C007F9E59 /* forrest-roshambo */,
+				3A7A28D21D4CED5C007F9E59 /* forrest-roshamboTests */,
+				3A7A28DD1D4CED5D007F9E59 /* forrest-roshamboUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A7A28BD1D4CED5C007F9E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7A28CD1D4CED5C007F9E59 /* LaunchScreen.storyboard in Resources */,
+				3A7A28CA1D4CED5C007F9E59 /* Assets.xcassets in Resources */,
+				3A7A28C81D4CED5C007F9E59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7A28D11D4CED5C007F9E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7A28DC1D4CED5D007F9E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A7A28BB1D4CED5C007F9E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7A28C51D4CED5C007F9E59 /* ViewController.swift in Sources */,
+				3A7A28C31D4CED5C007F9E59 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7A28CF1D4CED5C007F9E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7A28D81D4CED5C007F9E59 /* forrest_roshamboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7A28DA1D4CED5D007F9E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7A28E31D4CED5D007F9E59 /* forrest_roshamboUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A7A28D51D4CED5C007F9E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7A28BE1D4CED5C007F9E59 /* forrest-roshambo */;
+			targetProxy = 3A7A28D41D4CED5C007F9E59 /* PBXContainerItemProxy */;
+		};
+		3A7A28E01D4CED5D007F9E59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7A28BE1D4CED5C007F9E59 /* forrest-roshambo */;
+			targetProxy = 3A7A28DF1D4CED5D007F9E59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A7A28C61D4CED5C007F9E59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7A28C71D4CED5C007F9E59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7A28CC1D4CED5C007F9E59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A7A28E51D4CED5D007F9E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A7A28E61D4CED5D007F9E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A7A28E81D4CED5D007F9E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "forrest-roshambo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uf.forrest-roshambo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A7A28E91D4CED5D007F9E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "forrest-roshambo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uf.forrest-roshambo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A7A28EB1D4CED5D007F9E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "forrest-roshamboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uf.forrest-roshamboTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/forrest-roshambo.app/forrest-roshambo";
+			};
+			name = Debug;
+		};
+		3A7A28EC1D4CED5D007F9E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "forrest-roshamboTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uf.forrest-roshamboTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/forrest-roshambo.app/forrest-roshambo";
+			};
+			name = Release;
+		};
+		3A7A28EE1D4CED5D007F9E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "forrest-roshamboUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uf.forrest-roshamboUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "forrest-roshambo";
+			};
+			name = Debug;
+		};
+		3A7A28EF1D4CED5D007F9E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "forrest-roshamboUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uf.forrest-roshamboUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "forrest-roshambo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A7A28BA1D4CED5C007F9E59 /* Build configuration list for PBXProject "forrest-roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7A28E51D4CED5D007F9E59 /* Debug */,
+				3A7A28E61D4CED5D007F9E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7A28E71D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshambo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7A28E81D4CED5D007F9E59 /* Debug */,
+				3A7A28E91D4CED5D007F9E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A7A28EA1D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshamboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7A28EB1D4CED5D007F9E59 /* Debug */,
+				3A7A28EC1D4CED5D007F9E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A7A28ED1D4CED5D007F9E59 /* Build configuration list for PBXNativeTarget "forrest-roshamboUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7A28EE1D4CED5D007F9E59 /* Debug */,
+				3A7A28EF1D4CED5D007F9E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A7A28B71D4CED5C007F9E59 /* Project object */;
+}
