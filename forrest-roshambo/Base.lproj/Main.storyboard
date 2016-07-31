@@ -16,11 +16,70 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNk-wh-Jb0" userLabel="PaperButton">
+                                <rect key="frame" x="379" y="159" width="129" height="65"/>
+                                <state key="normal" image="PaperIcon"/>
+                                <connections>
+                                    <action selector="playerChoseHand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KL4-5u-Lzv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAD-lx-tJD" userLabel="ScissorsButton">
+                                <rect key="frame" x="259" y="267" width="129" height="65"/>
+                                <state key="normal" image="ScissorsIcon"/>
+                                <connections>
+                                    <action selector="playerChoseHand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0VI-XZ-3NN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="398-g1-9n9" userLabel="RockButton">
+                                <rect key="frame" x="190" y="159" width="129" height="65"/>
+                                <state key="normal" image="RockIcon"/>
+                                <connections>
+                                    <action selector="playerChoseHand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1zf-mo-17N"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="paperButton" destination="mNk-wh-Jb0" id="HjO-SL-SeD"/>
+                        <outlet property="rockButton" destination="398-g1-9n9" id="NfX-UH-GMM"/>
+                        <outlet property="scissorsButton" destination="ZAD-lx-tJD" id="0NP-c6-PA5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Show Results View Controller-->
+        <scene sceneID="mJ5-JK-0wP">
+            <objects>
+                <viewController id="fGf-RX-eCE" customClass="ShowResultsViewController" customModule="forrest_roshambo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ao9-Ks-xPu"/>
+                        <viewControllerLayoutGuide type="bottom" id="iIC-TB-K2n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0IY-Ss-ugl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="These are the results of the game" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trJ-oq-tLK">
+                                <rect key="frame" x="189" y="217" width="195" height="97"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I9O-s9-iOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="282"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="PaperIcon" width="75" height="65"/>
+        <image name="RockIcon" width="75" height="65"/>
+        <image name="ScissorsIcon" width="75" height="65"/>
+    </resources>
 </document>

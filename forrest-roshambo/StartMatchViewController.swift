@@ -9,7 +9,15 @@
 import UIKit
 
 class StartMatchViewController: UIViewController {
+    
+    /*** VARIABLES ***/
+    @IBOutlet weak var rockButton: UIButton!
+    @IBOutlet weak var paperButton: UIButton!
+    @IBOutlet weak var scissorsButton: UIButton!
+    
+    enum ButtonType: Int { case Rock = 0, Paper, Scissors }
 
+    /*** OVERRIDE FUNCS ***/
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -18,6 +26,27 @@ class StartMatchViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    /*** HELPER FUNCS ***/
+    
+    //Play The Game
+    
+    @IBAction func playerChoseHand(sender: UIButton) {
+        
+        switch(ButtonType(rawValue: sender.tag)!) {
+        case .Rock:
+            print("Chose Rock")
+        case .Paper:
+            print("Chose Paper")
+        case .Scissors:
+            print("Chose Scissors")
+        }
+ 
+    }
+    
+    func playComputersHand() {
+        
     }
 
 

@@ -14,6 +14,7 @@
 		3A7A28CD1D4CED5C007F9E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */; };
 		3A7A28D81D4CED5C007F9E59 /* forrest_roshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28D71D4CED5C007F9E59 /* forrest_roshamboTests.swift */; };
 		3A7A28E31D4CED5D007F9E59 /* forrest_roshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7A28E21D4CED5D007F9E59 /* forrest_roshamboUITests.swift */; };
+		3A96DE4F1D4D698B009F743D /* ShowResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96DE4E1D4D698B009F743D /* ShowResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3A7A28DE1D4CED5D007F9E59 /* forrest-roshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "forrest-roshamboUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7A28E21D4CED5D007F9E59 /* forrest_roshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forrest_roshamboUITests.swift; sourceTree = "<group>"; };
 		3A7A28E41D4CED5D007F9E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A96DE4E1D4D698B009F743D /* ShowResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3A7A28C21D4CED5C007F9E59 /* AppDelegate.swift */,
 				3A7A28C41D4CED5C007F9E59 /* StartMatchViewController.swift */,
+				3A96DE4E1D4D698B009F743D /* ShowResultsViewController.swift */,
 				3A7A28C61D4CED5C007F9E59 /* Main.storyboard */,
 				3A7A28C91D4CED5C007F9E59 /* Assets.xcassets */,
 				3A7A28CB1D4CED5C007F9E59 /* LaunchScreen.storyboard */,
@@ -187,6 +190,9 @@
 		3A7A28B71D4CED5C007F9E59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					Rock,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Urban Forrest";
@@ -257,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A7A28C51D4CED5C007F9E59 /* StartMatchViewController.swift in Sources */,
+				3A96DE4F1D4D698B009F743D /* ShowResultsViewController.swift in Sources */,
 				3A7A28C31D4CED5C007F9E59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
